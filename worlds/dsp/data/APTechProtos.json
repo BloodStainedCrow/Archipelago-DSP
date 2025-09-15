@@ -1,0 +1,4424 @@
+[
+  {
+    "ID": 1,
+    "Name": "Dyson Sphere Program",
+    "IsHiddenTech": false,
+    "Items": [],
+    "UnlockRecipes": [],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1001,
+    "Name": "Electromagnetism",
+    "IsHiddenTech": false,
+    "Items": [
+      1202
+    ],
+    "UnlockRecipes": [
+      7,
+      8,
+      48
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1002,
+    "Name": "Electromagnetic Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      1202,
+      1301
+    ],
+    "UnlockRecipes": [
+      9,
+      10
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1101,
+    "Name": "High-Efficiency Plasma Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      11,
+      12,
+      13
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1102,
+    "Name": "Plasma Extract Refining",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      14,
+      15,
+      16
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1103,
+    "Name": "X-Ray Cracking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      58
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1104,
+    "Name": "Reformed Refinement",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      121
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1111,
+    "Name": "Energy Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      18
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1112,
+    "Name": "Hydrogen Fuel Rod",
+    "IsHiddenTech": false,
+    "Items": [
+      6002
+    ],
+    "UnlockRecipes": [
+      19
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1113,
+    "Name": "Thruster",
+    "IsHiddenTech": false,
+    "Items": [
+      6002
+    ],
+    "UnlockRecipes": [
+      20
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1114,
+    "Name": "Reinforced Thruster",
+    "IsHiddenTech": false,
+    "Items": [
+      6002
+    ],
+    "UnlockRecipes": [
+      21
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1120,
+    "Name": "Fluid Storage Encapsulation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      114,
+      49
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1121,
+    "Name": "Basic Chemical Engineering",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      22,
+      23,
+      24
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1122,
+    "Name": "Polymer Chemical Engineering",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      25,
+      54
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1123,
+    "Name": "High-Strength Crystal",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      26
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1124,
+    "Name": "Structure Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      27
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1125,
+    "Name": "Casimir Crystal",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      28,
+      29
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1126,
+    "Name": "High-Strength Glass",
+    "IsHiddenTech": false,
+    "Items": [
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      30
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1131,
+    "Name": "Applied Superconductor",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      31,
+      32
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1132,
+    "Name": "High-Strength Material",
+    "IsHiddenTech": false,
+    "Items": [
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      33,
+      35
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1133,
+    "Name": "Particle Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      36,
+      62
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1134,
+    "Name": "Deuterium Fractionation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      110,
+      115
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1141,
+    "Name": "Wave Function Interference",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6004
+    ],
+    "UnlockRecipes": [
+      38
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1142,
+    "Name": "Miniature Particle Collider",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      39,
+      40
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1143,
+    "Name": "Strange Matter",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      104
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1144,
+    "Name": "Artificial Star",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      43
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1145,
+    "Name": "Controlled Annihilation Reaction",
+    "IsHiddenTech": false,
+    "Items": [
+      6002,
+      6005
+    ],
+    "UnlockRecipes": [
+      42,
+      44
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1151,
+    "Name": "Proliferator Mk.I",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      106,
+      109
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1152,
+    "Name": "Proliferator Mk.II",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      107
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1153,
+    "Name": "Proliferator Mk.III",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      108
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1201,
+    "Name": "Basic Assembling",
+    "IsHiddenTech": false,
+    "Items": [
+      1301,
+      1201
+    ],
+    "UnlockRecipes": [
+      45
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1202,
+    "Name": "High-Speed Assembling",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      46
+    ],
+    "UnlockFunctions": [
+      7
+    ]
+  },
+  {
+    "ID": 1203,
+    "Name": "Quantum Printing",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      47
+    ],
+    "UnlockFunctions": [
+      7
+    ]
+  },
+  {
+    "ID": 1302,
+    "Name": "Processor",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      51
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1303,
+    "Name": "Quantum Chip",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6004
+    ],
+    "UnlockRecipes": [
+      52
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1304,
+    "Name": "Photon Spotlight Mining",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      119
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1305,
+    "Name": "Mesoscopic Quantum Entanglement",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      124
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1311,
+    "Name": "Semiconductor Material",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      53
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1312,
+    "Name": "Information Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      55
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1401,
+    "Name": "Automatic Metallurgy",
+    "IsHiddenTech": false,
+    "Items": [
+      1202,
+      1301
+    ],
+    "UnlockRecipes": [
+      56,
+      57
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1402,
+    "Name": "Smelting Purification",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      34,
+      17,
+      59
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1403,
+    "Name": "Crystal Smelting",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      60,
+      61,
+      37
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1411,
+    "Name": "Steel Smelting",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      63
+    ],
+    "UnlockFunctions": [
+      37
+    ]
+  },
+  {
+    "ID": 1412,
+    "Name": "Thermal Power",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      64
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1413,
+    "Name": "Titanium Smelting",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      65
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1414,
+    "Name": "High-Strength Titanium Alloy",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      66
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1415,
+    "Name": "Reclamation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      112
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1416,
+    "Name": "Mini Fusion Power Generation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      113,
+      41
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1417,
+    "Name": "Plane-Filter Smelting",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      116
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1501,
+    "Name": "Solar Collection",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      67
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1502,
+    "Name": "Photon Frequency Conversion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      68,
+      69
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1503,
+    "Name": "Solar Sail Orbit System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      70,
+      71
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1504,
+    "Name": "Ray Receiver",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      72
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1505,
+    "Name": "Planetary Ionosphere Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      8
+    ]
+  },
+  {
+    "ID": 1506,
+    "Name": "Dirac Inversion Mechanism",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      74
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1507,
+    "Name": "Universe Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      75
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1508,
+    "Name": "Mission Completed!",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      99
+    ]
+  },
+  {
+    "ID": 1511,
+    "Name": "Energy Storage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      76
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1512,
+    "Name": "Interstellar Power Transmission",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      77
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1513,
+    "Name": "Geothermal Extraction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      118
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1521,
+    "Name": "High-Strength Lightweight Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6003
+    ],
+    "UnlockRecipes": [
+      80,
+      81
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1522,
+    "Name": "Vertical Launching Silo",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      82,
+      83
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1523,
+    "Name": "Dyson Sphere Stress System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      26
+    ]
+  },
+  {
+    "ID": 1601,
+    "Name": "Basic Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      1301,
+      1201
+    ],
+    "UnlockRecipes": [
+      84,
+      85,
+      86
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1602,
+    "Name": "Upgraded Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      87,
+      88,
+      117
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1603,
+    "Name": "High-Efficiency Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      89,
+      90,
+      91
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1604,
+    "Name": "Planetary Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      92,
+      93,
+      94
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1605,
+    "Name": "Interstellar Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      95,
+      96
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1606,
+    "Name": "Gas Giants Exploitation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      111
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1607,
+    "Name": "Integrated Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      120,
+      160
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1608,
+    "Name": "Distribution Logistics System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      122,
+      123
+    ],
+    "UnlockFunctions": [
+      32
+    ]
+  },
+  {
+    "ID": 1701,
+    "Name": "Electromagnetic Drive",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      97
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1702,
+    "Name": "Magnetic Levitation",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      98
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1703,
+    "Name": "Magnetic Particle Trap",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      99,
+      100
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1704,
+    "Name": "Gravitational Wave Refraction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      101,
+      78
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1705,
+    "Name": "Gravity Matrix",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      102,
+      79
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1711,
+    "Name": "Super Magnetic Field Generator",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      103
+    ],
+    "UnlockFunctions": [
+      42
+    ]
+  },
+  {
+    "ID": 1712,
+    "Name": "Satellite Power Distribution System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      73
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1801,
+    "Name": "Weapon System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      125,
+      136
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1802,
+    "Name": "Combustible Unit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      133
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1803,
+    "Name": "Explosive Unit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      134
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1804,
+    "Name": "Crystal Explosive Unit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      135
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1805,
+    "Name": "Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      105
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1806,
+    "Name": "Missile Turret",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      129,
+      144
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1807,
+    "Name": "Implosion Cannon",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      127,
+      139
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1808,
+    "Name": "Signal Tower",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      131
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1809,
+    "Name": "Planetary Defense System",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      126,
+      132
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1810,
+    "Name": "Jammer Tower",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      130,
+      158
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1811,
+    "Name": "Plasma Turret",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      128,
+      142,
+      157
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1812,
+    "Name": "Titanium Ammo Box",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      137
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1813,
+    "Name": "Superalloy Ammo Box",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      138
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1814,
+    "Name": "High-Explosive Shell Set",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      140
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1815,
+    "Name": "Supersonic Missile Set",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      145
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1816,
+    "Name": "Crystal Shell Set",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      141
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1817,
+    "Name": "Gravity Missile Set",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      146
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1818,
+    "Name": "Antimatter Capsule",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      143
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1819,
+    "Name": "Prototype",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      147
+    ],
+    "UnlockFunctions": [
+      77,
+      78
+    ]
+  },
+  {
+    "ID": 1820,
+    "Name": "Precision Drone",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [
+      148
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1821,
+    "Name": "Attack Drone",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      149
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1822,
+    "Name": "Corvette",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [
+      150
+    ],
+    "UnlockFunctions": [
+      79,
+      80
+    ]
+  },
+  {
+    "ID": 1823,
+    "Name": "Destroyer",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [
+      151
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1824,
+    "Name": "Suppressing Capsule",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [
+      159
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1826,
+    "Name": "Battlefield Analysis Base",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [
+      152
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1901,
+    "Name": "Digital Analog Computation",
+    "IsHiddenTech": true,
+    "Items": [
+      5201
+    ],
+    "UnlockRecipes": [
+      153
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1902,
+    "Name": "Matter Recombination",
+    "IsHiddenTech": true,
+    "Items": [
+      5201
+    ],
+    "UnlockRecipes": [
+      154
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1903,
+    "Name": "Negentropy Recursion",
+    "IsHiddenTech": true,
+    "Items": [
+      5201
+    ],
+    "UnlockRecipes": [
+      155
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 1904,
+    "Name": "High-Density Controlled Annihilation",
+    "IsHiddenTech": true,
+    "Items": [
+      5201
+    ],
+    "UnlockRecipes": [
+      156
+    ],
+    "UnlockFunctions": []
+  },
+  {
+    "ID": 2101,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      1101,
+      1104
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      82
+    ]
+  },
+  {
+    "ID": 2102,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "ID": 2103,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "ID": 2104,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "ID": 2105,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      82,
+      83
+    ]
+  },
+  {
+    "ID": 2106,
+    "Name": "Mecha Core",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      6,
+      81,
+      83
+    ]
+  },
+  {
+    "ID": 2201,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      1203
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2202,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2203,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2204,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2205,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2206,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2207,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2208,
+    "Name": "Mechanical Frame",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      3
+    ]
+  },
+  {
+    "ID": 2301,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      1103,
+      1301
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5
+    ]
+  },
+  {
+    "ID": 2302,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5
+    ]
+  },
+  {
+    "ID": 2303,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5,
+      33
+    ]
+  },
+  {
+    "ID": 2304,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5,
+      32,
+      33
+    ]
+  },
+  {
+    "ID": 2305,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5,
+      33
+    ]
+  },
+  {
+    "ID": 2306,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      5,
+      33
+    ]
+  },
+  {
+    "ID": 2307,
+    "Name": "Inventory Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      38,
+      32
+    ]
+  },
+  {
+    "ID": 2401,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      1
+    ]
+  },
+  {
+    "ID": 2402,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      1
+    ]
+  },
+  {
+    "ID": 2403,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      9
+    ]
+  },
+  {
+    "ID": 2404,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      1
+    ]
+  },
+  {
+    "ID": 2405,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      1
+    ]
+  },
+  {
+    "ID": 2406,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      9
+    ]
+  },
+  {
+    "ID": 2407,
+    "Name": "Communication Control",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      1
+    ]
+  },
+  {
+    "ID": 2501,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      1030,
+      1006,
+      1109
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2502,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2503,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2504,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2505,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2506,
+    "Name": "Energy Circuit",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      2
+    ]
+  },
+  {
+    "ID": 2601,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2602,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2603,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2604,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2605,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2606,
+    "Name": "Drone Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      10
+    ]
+  },
+  {
+    "ID": 2701,
+    "Name": "Mass Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      1301
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      28
+    ]
+  },
+  {
+    "ID": 2702,
+    "Name": "Mass Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      28
+    ]
+  },
+  {
+    "ID": 2703,
+    "Name": "Mass Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      28
+    ]
+  },
+  {
+    "ID": 2704,
+    "Name": "Mass Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      28
+    ]
+  },
+  {
+    "ID": 2705,
+    "Name": "Mass Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      28
+    ]
+  },
+  {
+    "ID": 2801,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      75,
+      65,
+      66
+    ]
+  },
+  {
+    "ID": 2802,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      65,
+      66
+    ]
+  },
+  {
+    "ID": 2803,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      65,
+      66,
+      86
+    ]
+  },
+  {
+    "ID": 2804,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      65,
+      66
+    ]
+  },
+  {
+    "ID": 2805,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      65,
+      66
+    ]
+  },
+  {
+    "ID": 2806,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      65,
+      66
+    ]
+  },
+  {
+    "ID": 2807,
+    "Name": "Energy Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      66
+    ]
+  },
+  {
+    "ID": 2901,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      1006,
+      1407
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      4
+    ]
+  },
+  {
+    "ID": 2902,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      4
+    ]
+  },
+  {
+    "ID": 2903,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      11
+    ]
+  },
+  {
+    "ID": 2904,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      4
+    ]
+  },
+  {
+    "ID": 2905,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      27
+    ]
+  },
+  {
+    "ID": 2906,
+    "Name": "Drive Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      27
+    ]
+  },
+  {
+    "ID": 2951,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 2952,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 2953,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 2954,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 2955,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 2956,
+    "Name": "Auto Reconstruction Marking",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      76
+    ]
+  },
+  {
+    "ID": 3101,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 3102,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 3103,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 3104,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 3105,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 3106,
+    "Name": "Solar Sail Life",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      12
+    ]
+  },
+  {
+    "ID": 4201,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 4202,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 4203,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 4204,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 4205,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 4206,
+    "Name": "Solar Sail Attaching Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      43
+    ]
+  },
+  {
+    "ID": 3201,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3202,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3203,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3204,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3205,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3206,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3207,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3208,
+    "Name": "Ray Transmission Efficiency",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      13
+    ]
+  },
+  {
+    "ID": 3301,
+    "Name": "Sorter Cargo Stacking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      14
+    ]
+  },
+  {
+    "ID": 3302,
+    "Name": "Sorter Cargo Stacking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      14
+    ]
+  },
+  {
+    "ID": 3303,
+    "Name": "Sorter Cargo Stacking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      14
+    ]
+  },
+  {
+    "ID": 3304,
+    "Name": "Sorter Cargo Stacking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      14
+    ]
+  },
+  {
+    "ID": 3305,
+    "Name": "Sorter Cargo Stacking",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      14
+    ]
+  },
+  {
+    "ID": 3306,
+    "Name": "Sorter Cargo Integration",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      39,
+      40
+    ]
+  },
+  {
+    "ID": 3311,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      39
+    ]
+  },
+  {
+    "ID": 3312,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      41
+    ]
+  },
+  {
+    "ID": 3313,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      39
+    ]
+  },
+  {
+    "ID": 3314,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      41
+    ]
+  },
+  {
+    "ID": 3315,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      39
+    ]
+  },
+  {
+    "ID": 3316,
+    "Name": "Pile Sorter Upgrade",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      40
+    ]
+  },
+  {
+    "ID": 4001,
+    "Name": "Distribution Range",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      36
+    ]
+  },
+  {
+    "ID": 4002,
+    "Name": "Distribution Range",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      36
+    ]
+  },
+  {
+    "ID": 4003,
+    "Name": "Distribution Range",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      36
+    ]
+  },
+  {
+    "ID": 4004,
+    "Name": "Distribution Range",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      36
+    ]
+  },
+  {
+    "ID": 4005,
+    "Name": "Distribution Range",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      36
+    ]
+  },
+  {
+    "ID": 3401,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34
+    ]
+  },
+  {
+    "ID": 3402,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34
+    ]
+  },
+  {
+    "ID": 3403,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34,
+      16
+    ]
+  },
+  {
+    "ID": 3404,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34,
+      16,
+      17
+    ]
+  },
+  {
+    "ID": 3405,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34,
+      16
+    ]
+  },
+  {
+    "ID": 3406,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34,
+      16
+    ]
+  },
+  {
+    "ID": 3407,
+    "Name": "Logistics Carrier Engine",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      15,
+      34,
+      16
+    ]
+  },
+  {
+    "ID": 3501,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18
+    ]
+  },
+  {
+    "ID": 3502,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18
+    ]
+  },
+  {
+    "ID": 3503,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3504,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3505,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3506,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3507,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      35,
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3508,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      18,
+      19
+    ]
+  },
+  {
+    "ID": 3509,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      18,
+      19,
+      30,
+      31
+    ]
+  },
+  {
+    "ID": 3510,
+    "Name": "Logistics Carrier Capacity",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      18,
+      19,
+      30,
+      31
+    ]
+  },
+  {
+    "ID": 3801,
+    "Name": "Station Integrated Logistics",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      29
+    ]
+  },
+  {
+    "ID": 3802,
+    "Name": "Station Integrated Logistics",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      29
+    ]
+  },
+  {
+    "ID": 3803,
+    "Name": "Station Integrated Logistics",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      29
+    ]
+  },
+  {
+    "ID": 3601,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3602,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3603,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3604,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3605,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3606,
+    "Name": "Vein Utilization",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      20,
+      21,
+      85
+    ]
+  },
+  {
+    "ID": 3701,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3702,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3703,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3704,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3705,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3706,
+    "Name": "Vertical Construction",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      24,
+      25
+    ]
+  },
+  {
+    "ID": 3901,
+    "Name": "Research Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      22
+    ]
+  },
+  {
+    "ID": 3902,
+    "Name": "Research Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      22
+    ]
+  },
+  {
+    "ID": 3903,
+    "Name": "Research Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      22
+    ]
+  },
+  {
+    "ID": 3904,
+    "Name": "Research Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      22
+    ]
+  },
+  {
+    "ID": 4101,
+    "Name": "Cosmic Exploration",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      23
+    ]
+  },
+  {
+    "ID": 4102,
+    "Name": "Cosmic Exploration",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      23
+    ]
+  },
+  {
+    "ID": 4103,
+    "Name": "Cosmic Exploration",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      23
+    ]
+  },
+  {
+    "ID": 4104,
+    "Name": "Cosmic Exploration",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      23
+    ]
+  },
+  {
+    "ID": 5001,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5002,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5003,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5004,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5005,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5006,
+    "Name": "Kinetic Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      61
+    ]
+  },
+  {
+    "ID": 5101,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5102,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5103,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5104,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5105,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5106,
+    "Name": "Energy Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      62
+    ]
+  },
+  {
+    "ID": 5201,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5202,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5203,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5204,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5205,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5206,
+    "Name": "Explosive Weapon Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      63
+    ]
+  },
+  {
+    "ID": 5301,
+    "Name": "Combat Drone Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      67
+    ]
+  },
+  {
+    "ID": 5302,
+    "Name": "Combat Drone Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      67
+    ]
+  },
+  {
+    "ID": 5303,
+    "Name": "Combat Drone Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      67,
+      71
+    ]
+  },
+  {
+    "ID": 5304,
+    "Name": "Combat Drone Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      67,
+      71
+    ]
+  },
+  {
+    "ID": 5305,
+    "Name": "Combat Drone Damage",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      67,
+      71
+    ]
+  },
+  {
+    "ID": 5401,
+    "Name": "Combat Drone Attack Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      68
+    ]
+  },
+  {
+    "ID": 5402,
+    "Name": "Combat Drone Attack Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      68
+    ]
+  },
+  {
+    "ID": 5403,
+    "Name": "Combat Drone Attack Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      68,
+      72
+    ]
+  },
+  {
+    "ID": 5404,
+    "Name": "Combat Drone Attack Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      68,
+      72
+    ]
+  },
+  {
+    "ID": 5405,
+    "Name": "Combat Drone Attack Speed",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      68,
+      72
+    ]
+  },
+  {
+    "ID": 5601,
+    "Name": "Combat Drone Durability",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      69
+    ]
+  },
+  {
+    "ID": 5602,
+    "Name": "Combat Drone Durability",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      69
+    ]
+  },
+  {
+    "ID": 5603,
+    "Name": "Combat Drone Durability",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      69,
+      73
+    ]
+  },
+  {
+    "ID": 5604,
+    "Name": "Combat Drone Durability",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      69,
+      73
+    ]
+  },
+  {
+    "ID": 5605,
+    "Name": "Combat Drone Durability",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      69,
+      73
+    ]
+  },
+  {
+    "ID": 5701,
+    "Name": "Planetary Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      74
+    ]
+  },
+  {
+    "ID": 5702,
+    "Name": "Planetary Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      74
+    ]
+  },
+  {
+    "ID": 5703,
+    "Name": "Planetary Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      74
+    ]
+  },
+  {
+    "ID": 5704,
+    "Name": "Planetary Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      74
+    ]
+  },
+  {
+    "ID": 5705,
+    "Name": "Planetary Shield",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      74
+    ]
+  },
+  {
+    "ID": 5801,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      78
+    ]
+  },
+  {
+    "ID": 5802,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      78
+    ]
+  },
+  {
+    "ID": 5803,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      77
+    ]
+  },
+  {
+    "ID": 5804,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      78
+    ]
+  },
+  {
+    "ID": 5805,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      77
+    ]
+  },
+  {
+    "ID": 5806,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      77
+    ]
+  },
+  {
+    "ID": 5807,
+    "Name": "Ground Squadron Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      77
+    ]
+  },
+  {
+    "ID": 5901,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      80
+    ]
+  },
+  {
+    "ID": 5902,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      80
+    ]
+  },
+  {
+    "ID": 5903,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      79
+    ]
+  },
+  {
+    "ID": 5904,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      79
+    ]
+  },
+  {
+    "ID": 5905,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      79
+    ]
+  },
+  {
+    "ID": 5906,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      79
+    ]
+  },
+  {
+    "ID": 5907,
+    "Name": "Space Fleet Expansion",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      79
+    ]
+  },
+  {
+    "ID": 6001,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6002,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6003,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6004,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6005,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6006,
+    "Name": "Enhanced Structure",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      84
+    ]
+  },
+  {
+    "ID": 6101,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  },
+  {
+    "ID": 6102,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  },
+  {
+    "ID": 6103,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  },
+  {
+    "ID": 6104,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  },
+  {
+    "ID": 6105,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  },
+  {
+    "ID": 6106,
+    "Name": "EM Weapon Strength",
+    "IsHiddenTech": false,
+    "Items": [
+      6006
+    ],
+    "UnlockRecipes": [],
+    "UnlockFunctions": [
+      64
+    ]
+  }
+]

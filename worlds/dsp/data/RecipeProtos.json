@@ -1,0 +1,3284 @@
+[
+  {
+    "ID": 1,
+    "Name": "Iron Ingot",
+    "Items": [
+      1001
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1101
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 2,
+    "Name": "Magnet",
+    "Items": [
+      1001
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1102
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 3,
+    "Name": "Copper Ingot",
+    "Items": [
+      1002
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1104
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 4,
+    "Name": "Stone Brick",
+    "Items": [
+      1005
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1108
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 5,
+    "Name": "Gear",
+    "Items": [
+      1101
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1201
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 6,
+    "Name": "Magnetic Coil",
+    "Items": [
+      1102,
+      1104
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1202
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 7,
+    "Name": "Wind Turbine",
+    "Items": [
+      1101,
+      1201,
+      1202
+    ],
+    "ItemCounts": [
+      6,
+      1,
+      3
+    ],
+    "Results": [
+      2203
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 8,
+    "Name": "Tesla Tower",
+    "Items": [
+      1101,
+      1202
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      2201
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 9,
+    "Name": "Electromagnetic Matrix",
+    "Items": [
+      1202,
+      1301
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      6001
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 10,
+    "Name": "Matrix Lab",
+    "Items": [
+      1101,
+      1110,
+      1301,
+      1202
+    ],
+    "ItemCounts": [
+      8,
+      4,
+      4,
+      4
+    ],
+    "Results": [
+      2901
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 11,
+    "Name": "Prism",
+    "Items": [
+      1110
+    ],
+    "ItemCounts": [
+      3
+    ],
+    "Results": [
+      1111
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 12,
+    "Name": "Plasma Exciter",
+    "Items": [
+      1202,
+      1111
+    ],
+    "ItemCounts": [
+      4,
+      2
+    ],
+    "Results": [
+      1401
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 13,
+    "Name": "Wireless Power Tower",
+    "Items": [
+      2201,
+      1401
+    ],
+    "ItemCounts": [
+      1,
+      3
+    ],
+    "Results": [
+      2202
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 14,
+    "Name": "Oil Extractor",
+    "Items": [
+      1103,
+      1108,
+      1301,
+      1401
+    ],
+    "ItemCounts": [
+      12,
+      12,
+      6,
+      4
+    ],
+    "Results": [
+      2307
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 15,
+    "Name": "Oil Refinery",
+    "Items": [
+      1103,
+      1108,
+      1301,
+      1401
+    ],
+    "ItemCounts": [
+      10,
+      10,
+      6,
+      6
+    ],
+    "Results": [
+      2308
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 16,
+    "Name": "Plasma Refining",
+    "Items": [
+      1007
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1120,
+      1114
+    ],
+    "ResultCounts": [
+      1,
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 17,
+    "Name": "Energetic Graphite",
+    "Items": [
+      1006
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1109
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 18,
+    "Name": "Energy Matrix",
+    "Items": [
+      1109,
+      1120
+    ],
+    "ItemCounts": [
+      2,
+      2
+    ],
+    "Results": [
+      6002
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 19,
+    "Name": "Hydrogen Fuel Rod",
+    "Items": [
+      1106,
+      1120
+    ],
+    "ItemCounts": [
+      1,
+      10
+    ],
+    "Results": [
+      1801
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 20,
+    "Name": " - Thruster",
+    "Items": [
+      1103,
+      1104
+    ],
+    "ItemCounts": [
+      2,
+      3
+    ],
+    "Results": [
+      1405
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 21,
+    "Name": "Reinforced Thruster",
+    "Items": [
+      1107,
+      1204
+    ],
+    "ItemCounts": [
+      5,
+      5
+    ],
+    "Results": [
+      1406
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 22,
+    "Name": "Chemical Plant",
+    "Items": [
+      1103,
+      1108,
+      1110,
+      1301
+    ],
+    "ItemCounts": [
+      8,
+      8,
+      8,
+      2
+    ],
+    "Results": [
+      2309
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 23,
+    "Name": "Plastic",
+    "Items": [
+      1114,
+      1109
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1115
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 24,
+    "Name": "Sulfuric Acid",
+    "Items": [
+      1114,
+      1005,
+      1000
+    ],
+    "ItemCounts": [
+      6,
+      8,
+      4
+    ],
+    "Results": [
+      1116
+    ],
+    "ResultCounts": [
+      4
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 25,
+    "Name": "Organic Crystal",
+    "Items": [
+      1115,
+      1114,
+      1000
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      1
+    ],
+    "Results": [
+      1117
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 26,
+    "Name": "Titanium Crystal",
+    "Items": [
+      1117,
+      1106
+    ],
+    "ItemCounts": [
+      1,
+      3
+    ],
+    "Results": [
+      1118
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 27,
+    "Name": "Structure Matrix",
+    "Items": [
+      1112,
+      1118
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      6003
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 28,
+    "Name": "Casimir Crystal",
+    "Items": [
+      1118,
+      1123,
+      1120
+    ],
+    "ItemCounts": [
+      1,
+      2,
+      12
+    ],
+    "Results": [
+      1126
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 29,
+    "Name": "Casimir Crystal (advanced)",
+    "Items": [
+      1014,
+      1123,
+      1120
+    ],
+    "ItemCounts": [
+      8,
+      2,
+      12
+    ],
+    "Results": [
+      1126
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 30,
+    "Name": "Titanium Glass",
+    "Items": [
+      1110,
+      1106,
+      1000
+    ],
+    "ItemCounts": [
+      2,
+      2,
+      2
+    ],
+    "Results": [
+      1119
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 31,
+    "Name": "Graphene",
+    "Items": [
+      1109,
+      1116
+    ],
+    "ItemCounts": [
+      3,
+      1
+    ],
+    "Results": [
+      1123
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 32,
+    "Name": "Graphene (advanced)",
+    "Items": [
+      1011
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1123,
+      1120
+    ],
+    "ResultCounts": [
+      2,
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 33,
+    "Name": "Carbon Nanotube",
+    "Items": [
+      1123,
+      1106
+    ],
+    "ItemCounts": [
+      3,
+      1
+    ],
+    "Results": [
+      1124
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 34,
+    "Name": "Silicon Ore",
+    "Items": [
+      1005
+    ],
+    "ItemCounts": [
+      10
+    ],
+    "Results": [
+      1003
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 35,
+    "Name": "Carbon Nanotube (advanced)",
+    "Items": [
+      1015
+    ],
+    "ItemCounts": [
+      6
+    ],
+    "Results": [
+      1124
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 36,
+    "Name": "Particle Broadband",
+    "Items": [
+      1124,
+      1113,
+      1115
+    ],
+    "ItemCounts": [
+      2,
+      2,
+      1
+    ],
+    "Results": [
+      1402
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 37,
+    "Name": "Crystal Silicon",
+    "Items": [
+      1105
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1113
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 38,
+    "Name": "Plane Filter",
+    "Items": [
+      1126,
+      1119
+    ],
+    "ItemCounts": [
+      1,
+      2
+    ],
+    "Results": [
+      1304
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 39,
+    "Name": "Miniature Particle Collider",
+    "Items": [
+      1107,
+      1125,
+      1205,
+      1123,
+      1303
+    ],
+    "ItemCounts": [
+      20,
+      20,
+      25,
+      10,
+      8
+    ],
+    "Results": [
+      2310
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 40,
+    "Name": "Deuterium",
+    "Items": [
+      1120
+    ],
+    "ItemCounts": [
+      10
+    ],
+    "Results": [
+      1121
+    ],
+    "ResultCounts": [
+      5
+    ],
+    "NonProductive": true
+  },
+  {
+    "ID": 41,
+    "Name": "Deuteron Fuel Rod",
+    "Items": [
+      1107,
+      1121,
+      1205
+    ],
+    "ItemCounts": [
+      1,
+      20,
+      1
+    ],
+    "Results": [
+      1802
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 42,
+    "Name": "Annihilation Constraint Sphere",
+    "Items": [
+      1206,
+      1303
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      1403
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 43,
+    "Name": "Artificial Star",
+    "Items": [
+      1107,
+      1125,
+      1403,
+      1305
+    ],
+    "ItemCounts": [
+      20,
+      20,
+      10,
+      10
+    ],
+    "Results": [
+      2210
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 44,
+    "Name": "Antimatter Fuel Rod",
+    "Items": [
+      1122,
+      1120,
+      1403,
+      1107
+    ],
+    "ItemCounts": [
+      12,
+      12,
+      1,
+      1
+    ],
+    "Results": [
+      1803
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": true
+  },
+  {
+    "ID": 45,
+    "Name": "Assembling Machine Mk.I",
+    "Items": [
+      1101,
+      1201,
+      1301
+    ],
+    "ItemCounts": [
+      4,
+      8,
+      4
+    ],
+    "Results": [
+      2303
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 46,
+    "Name": "Assembling Machine Mk.II",
+    "Items": [
+      2303,
+      1123,
+      1303
+    ],
+    "ItemCounts": [
+      1,
+      8,
+      4
+    ],
+    "Results": [
+      2304
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 47,
+    "Name": "Assembling Machine Mk.III",
+    "Items": [
+      2304,
+      1402,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      8,
+      2
+    ],
+    "Results": [
+      2305
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 48,
+    "Name": "Mining Machine",
+    "Items": [
+      1101,
+      1301,
+      1202,
+      1201
+    ],
+    "ItemCounts": [
+      4,
+      2,
+      2,
+      2
+    ],
+    "Results": [
+      2301
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 49,
+    "Name": "Water Pump",
+    "Items": [
+      1101,
+      1108,
+      1203,
+      1301
+    ],
+    "ItemCounts": [
+      8,
+      4,
+      4,
+      2
+    ],
+    "Results": [
+      2306
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 50,
+    "Name": "Circuit Board",
+    "Items": [
+      1101,
+      1104
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1301
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 51,
+    "Name": "Processor",
+    "Items": [
+      1301,
+      1302
+    ],
+    "ItemCounts": [
+      2,
+      2
+    ],
+    "Results": [
+      1303
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 52,
+    "Name": "Quantum Chip",
+    "Items": [
+      1303,
+      1304
+    ],
+    "ItemCounts": [
+      2,
+      2
+    ],
+    "Results": [
+      1305
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 53,
+    "Name": "Microcrystalline Component",
+    "Items": [
+      1105,
+      1104
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1302
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 54,
+    "Name": "Organic Crystal (original)",
+    "Items": [
+      1030,
+      1031,
+      1000
+    ],
+    "ItemCounts": [
+      20,
+      30,
+      10
+    ],
+    "Results": [
+      1117
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 55,
+    "Name": "Information Matrix",
+    "Items": [
+      1303,
+      1402
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      6004
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 56,
+    "Name": "Arc Smelter",
+    "Items": [
+      1101,
+      1108,
+      1301,
+      1202
+    ],
+    "ItemCounts": [
+      4,
+      2,
+      4,
+      2
+    ],
+    "Results": [
+      2302
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 57,
+    "Name": "Glass",
+    "Items": [
+      1005
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1110
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 58,
+    "Name": "X-ray Cracking",
+    "Items": [
+      1114,
+      1120
+    ],
+    "ItemCounts": [
+      1,
+      2
+    ],
+    "Results": [
+      1120,
+      1109
+    ],
+    "ResultCounts": [
+      3,
+      1
+    ],
+    "NonProductive": true
+  },
+  {
+    "ID": 59,
+    "Name": "High-purity Silicon",
+    "Items": [
+      1003
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1105
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 60,
+    "Name": "Diamond",
+    "Items": [
+      1109
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1112
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 61,
+    "Name": "Diamond (advanced)",
+    "Items": [
+      1012
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1112
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 62,
+    "Name": "Crystal Silicon (advanced)",
+    "Items": [
+      1013
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1113
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 63,
+    "Name": "Steel",
+    "Items": [
+      1101
+    ],
+    "ItemCounts": [
+      3
+    ],
+    "Results": [
+      1103
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 64,
+    "Name": "Thermal Power Plant",
+    "Items": [
+      1101,
+      1108,
+      1201,
+      1202
+    ],
+    "ItemCounts": [
+      10,
+      4,
+      4,
+      4
+    ],
+    "Results": [
+      2204
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 65,
+    "Name": "Titanium Ingot",
+    "Items": [
+      1004
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1106
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 66,
+    "Name": "Titanium Alloy",
+    "Items": [
+      1106,
+      1103,
+      1116
+    ],
+    "ItemCounts": [
+      4,
+      4,
+      8
+    ],
+    "Results": [
+      1107
+    ],
+    "ResultCounts": [
+      4
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 67,
+    "Name": "Solar Panel",
+    "Items": [
+      1104,
+      1105,
+      1301
+    ],
+    "ItemCounts": [
+      10,
+      10,
+      5
+    ],
+    "Results": [
+      2205
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 68,
+    "Name": "Photon Combiner",
+    "Items": [
+      1111,
+      1301
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1404
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 69,
+    "Name": "Photon Combiner (advanced)",
+    "Items": [
+      1014,
+      1301
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      1404
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 70,
+    "Name": "Solar Sail",
+    "Items": [
+      1123,
+      1404
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      1501
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 71,
+    "Name": "EM-Rail Ejector",
+    "Items": [
+      1103,
+      1201,
+      1303,
+      1205
+    ],
+    "ItemCounts": [
+      20,
+      20,
+      5,
+      10
+    ],
+    "Results": [
+      2311
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 72,
+    "Name": "Ray Receiver",
+    "Items": [
+      1103,
+      1105,
+      1404,
+      1303,
+      1205
+    ],
+    "ItemCounts": [
+      20,
+      20,
+      10,
+      5,
+      20
+    ],
+    "Results": [
+      2208
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 73,
+    "Name": "Satellite Substation",
+    "Items": [
+      2202,
+      1205,
+      1125
+    ],
+    "ItemCounts": [
+      1,
+      10,
+      2
+    ],
+    "Results": [
+      2212
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 74,
+    "Name": "Mass-energy Storage",
+    "Items": [
+      1208
+    ],
+    "ItemCounts": [
+      2
+    ],
+    "Results": [
+      1122,
+      1120
+    ],
+    "ResultCounts": [
+      2,
+      2
+    ],
+    "NonProductive": true
+  },
+  {
+    "ID": 75,
+    "Name": "Universe Matrix",
+    "Items": [
+      6001,
+      6002,
+      6003,
+      6004,
+      6005,
+      1122
+    ],
+    "ItemCounts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Results": [
+      6006
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 76,
+    "Name": "Accumulator",
+    "Items": [
+      1101,
+      1205,
+      1113
+    ],
+    "ItemCounts": [
+      6,
+      1,
+      3
+    ],
+    "Results": [
+      2206
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 77,
+    "Name": "Energy Exchanger",
+    "Items": [
+      1107,
+      1103,
+      1303,
+      1206
+    ],
+    "ItemCounts": [
+      40,
+      40,
+      40,
+      8
+    ],
+    "Results": [
+      2209
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 78,
+    "Name": "Space Warper",
+    "Items": [
+      1209
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1210
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 79,
+    "Name": "Space Warper (advanced)",
+    "Items": [
+      6005
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1210
+    ],
+    "ResultCounts": [
+      8
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 80,
+    "Name": "Frame Material",
+    "Items": [
+      1124,
+      1107,
+      1105
+    ],
+    "ItemCounts": [
+      4,
+      1,
+      1
+    ],
+    "Results": [
+      1125
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 81,
+    "Name": "Dyson Sphere Component",
+    "Items": [
+      1125,
+      1501,
+      1303
+    ],
+    "ItemCounts": [
+      3,
+      3,
+      3
+    ],
+    "Results": [
+      1502
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 82,
+    "Name": "Vertical Launching Silo",
+    "Items": [
+      1107,
+      1125,
+      1209,
+      1305
+    ],
+    "ItemCounts": [
+      80,
+      30,
+      20,
+      10
+    ],
+    "Results": [
+      2312
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 83,
+    "Name": "Small Carrier Rocket",
+    "Items": [
+      1502,
+      1802,
+      1305
+    ],
+    "ItemCounts": [
+      2,
+      4,
+      2
+    ],
+    "Results": [
+      1503
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 84,
+    "Name": "Conveyor Belt MK.I",
+    "Items": [
+      1101,
+      1201
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      2001
+    ],
+    "ResultCounts": [
+      3
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 85,
+    "Name": "Sorter MK.I",
+    "Items": [
+      1101,
+      1301
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      2011
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 86,
+    "Name": "Depot MK.I",
+    "Items": [
+      1101,
+      1108
+    ],
+    "ItemCounts": [
+      4,
+      4
+    ],
+    "Results": [
+      2101
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 87,
+    "Name": "Splitter",
+    "Items": [
+      1101,
+      1201,
+      1301
+    ],
+    "ItemCounts": [
+      3,
+      2,
+      1
+    ],
+    "Results": [
+      2020
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 88,
+    "Name": "Sorter MK.II",
+    "Items": [
+      2011,
+      1203
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      2012
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 89,
+    "Name": "Conveyor Belt MK.II",
+    "Items": [
+      2001,
+      1204
+    ],
+    "ItemCounts": [
+      3,
+      1
+    ],
+    "Results": [
+      2002
+    ],
+    "ResultCounts": [
+      3
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 90,
+    "Name": "Sorter MK.III",
+    "Items": [
+      2012,
+      1204
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      2013
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 91,
+    "Name": "Depot MK.II",
+    "Items": [
+      1103,
+      1108
+    ],
+    "ItemCounts": [
+      8,
+      8
+    ],
+    "Results": [
+      2102
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 92,
+    "Name": "Conveyor Belt MK.III",
+    "Items": [
+      2002,
+      1205,
+      1123
+    ],
+    "ItemCounts": [
+      3,
+      1,
+      1
+    ],
+    "Results": [
+      2003
+    ],
+    "ResultCounts": [
+      3
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 93,
+    "Name": "Planetary Logistics Station",
+    "Items": [
+      1103,
+      1106,
+      1303,
+      1206
+    ],
+    "ItemCounts": [
+      40,
+      40,
+      40,
+      20
+    ],
+    "Results": [
+      2103
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 94,
+    "Name": "Logistics Drone",
+    "Items": [
+      1101,
+      1303,
+      1405
+    ],
+    "ItemCounts": [
+      5,
+      2,
+      2
+    ],
+    "Results": [
+      5001
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 95,
+    "Name": "Interstellar Logistics Station",
+    "Items": [
+      2103,
+      1107,
+      1206
+    ],
+    "ItemCounts": [
+      1,
+      40,
+      20
+    ],
+    "Results": [
+      2104
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 96,
+    "Name": "Interstellar Logistics Vessel",
+    "Items": [
+      1107,
+      1303,
+      1406
+    ],
+    "ItemCounts": [
+      10,
+      10,
+      2
+    ],
+    "Results": [
+      5002
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 97,
+    "Name": "Electric Motor",
+    "Items": [
+      1101,
+      1201,
+      1202
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      1
+    ],
+    "Results": [
+      1203
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 98,
+    "Name": "Electromagnetic Turbine",
+    "Items": [
+      1203,
+      1202
+    ],
+    "ItemCounts": [
+      2,
+      2
+    ],
+    "Results": [
+      1204
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 99,
+    "Name": "Particle Container",
+    "Items": [
+      1204,
+      1104,
+      1123
+    ],
+    "ItemCounts": [
+      2,
+      2,
+      2
+    ],
+    "Results": [
+      1206
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 100,
+    "Name": "Particle Container (advanced)",
+    "Items": [
+      1016,
+      1104
+    ],
+    "ItemCounts": [
+      10,
+      2
+    ],
+    "Results": [
+      1206
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 101,
+    "Name": "Graviton Lens",
+    "Items": [
+      1112,
+      1127
+    ],
+    "ItemCounts": [
+      4,
+      1
+    ],
+    "Results": [
+      1209
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 102,
+    "Name": "Gravity Matrix",
+    "Items": [
+      1209,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      6005
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 103,
+    "Name": "Super-magnetic Ring",
+    "Items": [
+      1204,
+      1102,
+      1109
+    ],
+    "ItemCounts": [
+      2,
+      3,
+      1
+    ],
+    "Results": [
+      1205
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 104,
+    "Name": "Strange Matter",
+    "Items": [
+      1206,
+      1101,
+      1121
+    ],
+    "ItemCounts": [
+      2,
+      2,
+      10
+    ],
+    "Results": [
+      1127
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 106,
+    "Name": "Proliferator Mk.I",
+    "Items": [
+      1006
+    ],
+    "ItemCounts": [
+      1
+    ],
+    "Results": [
+      1141
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 107,
+    "Name": "Proliferator Mk.II",
+    "Items": [
+      1141,
+      1112
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1142
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 108,
+    "Name": "Proliferator Mk.III",
+    "Items": [
+      1142,
+      1124
+    ],
+    "ItemCounts": [
+      2,
+      1
+    ],
+    "Results": [
+      1143
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 109,
+    "Name": "Spray Coater",
+    "Items": [
+      1103,
+      1401,
+      1301,
+      1302
+    ],
+    "ItemCounts": [
+      4,
+      2,
+      2,
+      2
+    ],
+    "Results": [
+      2313
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 110,
+    "Name": "Fractionator",
+    "Items": [
+      1103,
+      1108,
+      1110,
+      1303
+    ],
+    "ItemCounts": [
+      8,
+      4,
+      4,
+      1
+    ],
+    "Results": [
+      2314
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 111,
+    "Name": "Orbital Collector",
+    "Items": [
+      2104,
+      1205,
+      1406,
+      2207
+    ],
+    "ItemCounts": [
+      1,
+      50,
+      20,
+      20
+    ],
+    "Results": [
+      2105
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 112,
+    "Name": "Foundation",
+    "Items": [
+      1108,
+      1103
+    ],
+    "ItemCounts": [
+      3,
+      1
+    ],
+    "Results": [
+      1131
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 113,
+    "Name": "Mini Fusion Power Plant",
+    "Items": [
+      1107,
+      1205,
+      1124,
+      1303
+    ],
+    "ItemCounts": [
+      12,
+      10,
+      8,
+      4
+    ],
+    "Results": [
+      2211
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 114,
+    "Name": "Storage Tank",
+    "Items": [
+      1101,
+      1108,
+      1110
+    ],
+    "ItemCounts": [
+      8,
+      4,
+      4
+    ],
+    "Results": [
+      2106
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 115,
+    "Name": "Deuterium Fractionation",
+    "Items": [
+      1120
+    ],
+    "ItemCounts": [
+      100
+    ],
+    "Results": [
+      1121
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 116,
+    "Name": "Plane Smelter",
+    "Items": [
+      2302,
+      1125,
+      1304,
+      1016
+    ],
+    "ItemCounts": [
+      1,
+      5,
+      4,
+      15
+    ],
+    "Results": [
+      2315
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 117,
+    "Name": "Traffic Monitor",
+    "Items": [
+      1101,
+      1201,
+      1110,
+      1301
+    ],
+    "ItemCounts": [
+      3,
+      2,
+      1,
+      2
+    ],
+    "Results": [
+      2030
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 118,
+    "Name": "Geothermal Power Station",
+    "Items": [
+      1103,
+      1104,
+      1404,
+      1205
+    ],
+    "ItemCounts": [
+      15,
+      20,
+      4,
+      1
+    ],
+    "Results": [
+      2213
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 119,
+    "Name": "Advanced Mining Machine",
+    "Items": [
+      1107,
+      1125,
+      1205,
+      1305,
+      1014
+    ],
+    "ItemCounts": [
+      20,
+      10,
+      10,
+      4,
+      40
+    ],
+    "Results": [
+      2316
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 120,
+    "Name": "Automatic Piler",
+    "Items": [
+      1103,
+      1201,
+      1205,
+      1303
+    ],
+    "ItemCounts": [
+      3,
+      4,
+      1,
+      2
+    ],
+    "Results": [
+      2040
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 121,
+    "Name": "Reformed Refinement",
+    "Items": [
+      1114,
+      1120,
+      1006
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      1
+    ],
+    "Results": [
+      1114
+    ],
+    "ResultCounts": [
+      3
+    ],
+    "NonProductive": true
+  },
+  {
+    "ID": 122,
+    "Name": "Logistics Distributor",
+    "Items": [
+      1101,
+      1401,
+      1303
+    ],
+    "ItemCounts": [
+      8,
+      4,
+      4
+    ],
+    "Results": [
+      2107
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 123,
+    "Name": "Logistics Bot",
+    "Items": [
+      1101,
+      1407,
+      1303
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      1
+    ],
+    "Results": [
+      5003
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 124,
+    "Name": "Quantum Chemical Plant",
+    "Items": [
+      2309,
+      1119,
+      1127,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      10,
+      3,
+      3
+    ],
+    "Results": [
+      2317
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 125,
+    "Name": "Gauss Turret",
+    "Items": [
+      1101,
+      1201,
+      1301,
+      1202
+    ],
+    "ItemCounts": [
+      8,
+      8,
+      2,
+      4
+    ],
+    "Results": [
+      3001
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 126,
+    "Name": "Laser Turret",
+    "Items": [
+      1103,
+      1401,
+      1301,
+      1404
+    ],
+    "ItemCounts": [
+      9,
+      6,
+      6,
+      9
+    ],
+    "Results": [
+      3002
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 127,
+    "Name": "Implosion Cannon",
+    "Items": [
+      1103,
+      1203,
+      1301,
+      1205
+    ],
+    "ItemCounts": [
+      10,
+      8,
+      10,
+      2
+    ],
+    "Results": [
+      3003
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 128,
+    "Name": "Plasma Turret",
+    "Items": [
+      1107,
+      1119,
+      1205,
+      1401,
+      1303
+    ],
+    "ItemCounts": [
+      20,
+      10,
+      10,
+      5,
+      5
+    ],
+    "Results": [
+      3004
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 129,
+    "Name": "Missile Turret",
+    "Items": [
+      1103,
+      1203,
+      1301,
+      1407
+    ],
+    "ItemCounts": [
+      8,
+      6,
+      12,
+      6
+    ],
+    "Results": [
+      3005
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 130,
+    "Name": "Jammer Tower",
+    "Items": [
+      1104,
+      1401,
+      1112,
+      1303
+    ],
+    "ItemCounts": [
+      12,
+      9,
+      6,
+      3
+    ],
+    "Results": [
+      3006
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 131,
+    "Name": "Signal Tower",
+    "Items": [
+      2202,
+      1103,
+      1113
+    ],
+    "ItemCounts": [
+      2,
+      12,
+      6
+    ],
+    "Results": [
+      3007
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 132,
+    "Name": "Planetary Shield Generator",
+    "Items": [
+      1103,
+      1204,
+      1205,
+      1206
+    ],
+    "ItemCounts": [
+      20,
+      20,
+      5,
+      5
+    ],
+    "Results": [
+      3008
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 133,
+    "Name": "Combustible Unit",
+    "Items": [
+      1006
+    ],
+    "ItemCounts": [
+      3
+    ],
+    "Results": [
+      1128
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 134,
+    "Name": "Explosive Unit",
+    "Items": [
+      1128,
+      1115,
+      1116
+    ],
+    "ItemCounts": [
+      2,
+      2,
+      1
+    ],
+    "Results": [
+      1129
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 135,
+    "Name": "Crystal Explosive Unit",
+    "Items": [
+      1129,
+      1126,
+      1113
+    ],
+    "ItemCounts": [
+      8,
+      1,
+      8
+    ],
+    "Results": [
+      1130
+    ],
+    "ResultCounts": [
+      8
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 136,
+    "Name": "Magnum Ammo Box",
+    "Items": [
+      1104
+    ],
+    "ItemCounts": [
+      3
+    ],
+    "Results": [
+      1601
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 137,
+    "Name": "Titanium Ammo Box",
+    "Items": [
+      1601,
+      1106
+    ],
+    "ItemCounts": [
+      1,
+      2
+    ],
+    "Results": [
+      1602
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 138,
+    "Name": "Superalloy Ammo Box",
+    "Items": [
+      1602,
+      1107
+    ],
+    "ItemCounts": [
+      1,
+      1
+    ],
+    "Results": [
+      1603
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 139,
+    "Name": "Shell Set",
+    "Items": [
+      1104,
+      1128
+    ],
+    "ItemCounts": [
+      9,
+      2
+    ],
+    "Results": [
+      1604
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 140,
+    "Name": "High-Explosive Shell Set",
+    "Items": [
+      1604,
+      1106,
+      1129
+    ],
+    "ItemCounts": [
+      1,
+      6,
+      2
+    ],
+    "Results": [
+      1605
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 141,
+    "Name": "Crystal Shell Set",
+    "Items": [
+      1605,
+      1107,
+      1130
+    ],
+    "ItemCounts": [
+      1,
+      3,
+      2
+    ],
+    "Results": [
+      1606
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 142,
+    "Name": "Plasma Capsule",
+    "Items": [
+      1123,
+      1102,
+      1121
+    ],
+    "ItemCounts": [
+      1,
+      2,
+      10
+    ],
+    "Results": [
+      1607
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 143,
+    "Name": "Antimatter Capsule",
+    "Items": [
+      1607,
+      1206,
+      1120,
+      1122
+    ],
+    "ItemCounts": [
+      1,
+      1,
+      10,
+      10
+    ],
+    "Results": [
+      1608
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 144,
+    "Name": "Missile Set",
+    "Items": [
+      1104,
+      1301,
+      1128,
+      1407
+    ],
+    "ItemCounts": [
+      6,
+      3,
+      2,
+      1
+    ],
+    "Results": [
+      1609
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 145,
+    "Name": "Supersonic Missile Set",
+    "Items": [
+      1609,
+      1303,
+      1129,
+      1405
+    ],
+    "ItemCounts": [
+      2,
+      4,
+      4,
+      2
+    ],
+    "Results": [
+      1610
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 146,
+    "Name": "Gravity Missile Set",
+    "Items": [
+      1610,
+      1130,
+      1127
+    ],
+    "ItemCounts": [
+      3,
+      6,
+      3
+    ],
+    "Results": [
+      1611
+    ],
+    "ResultCounts": [
+      3
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 147,
+    "Name": "Prototype",
+    "Items": [
+      1101,
+      1407,
+      1301,
+      1401
+    ],
+    "ItemCounts": [
+      3,
+      1,
+      2,
+      1
+    ],
+    "Results": [
+      5101
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 148,
+    "Name": "Precision Drone",
+    "Items": [
+      5101,
+      1204,
+      1301,
+      1404
+    ],
+    "ItemCounts": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "Results": [
+      5102
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 149,
+    "Name": "Attack Drone",
+    "Items": [
+      5101,
+      1204,
+      1303,
+      1206
+    ],
+    "ItemCounts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Results": [
+      5103
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 150,
+    "Name": "Corvette",
+    "Items": [
+      1107,
+      1406,
+      1303,
+      1206
+    ],
+    "ItemCounts": [
+      5,
+      1,
+      2,
+      3
+    ],
+    "Results": [
+      5111
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 151,
+    "Name": "Destroyer",
+    "Items": [
+      1125,
+      1406,
+      1303,
+      1127
+    ],
+    "ItemCounts": [
+      20,
+      4,
+      4,
+      1
+    ],
+    "Results": [
+      5112
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 105,
+    "Name": "Engine",
+    "Items": [
+      1202,
+      1104
+    ],
+    "ItemCounts": [
+      1,
+      2
+    ],
+    "Results": [
+      1407
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 152,
+    "Name": "Battlefield Analysis Base",
+    "Items": [
+      1103,
+      1301,
+      1302,
+      1407
+    ],
+    "ItemCounts": [
+      12,
+      18,
+      6,
+      12
+    ],
+    "Results": [
+      3009
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 153,
+    "Name": "Self-evolution Lab",
+    "Items": [
+      2901,
+      5202,
+      5201,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      10,
+      20,
+      4
+    ],
+    "Results": [
+      2902
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 154,
+    "Name": "Re-composing Assembler",
+    "Items": [
+      2305,
+      5203,
+      5206,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      10,
+      30,
+      4
+    ],
+    "Results": [
+      2318
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 155,
+    "Name": "Negentropy Smelter",
+    "Items": [
+      2315,
+      5204,
+      5206,
+      1305
+    ],
+    "ItemCounts": [
+      1,
+      10,
+      30,
+      4
+    ],
+    "Results": [
+      2319
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 156,
+    "Name": "Strange Annihilation Fuel Rod",
+    "Items": [
+      1803,
+      5205,
+      1127,
+      1125
+    ],
+    "ItemCounts": [
+      8,
+      1,
+      2,
+      1
+    ],
+    "Results": [
+      1804
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 157,
+    "Name": "SR Plasma Turret",
+    "Items": [
+      1103,
+      1205,
+      1401,
+      1303
+    ],
+    "ItemCounts": [
+      15,
+      5,
+      5,
+      5
+    ],
+    "Results": [
+      3010
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 158,
+    "Name": "Jamming Capsule",
+    "Items": [
+      1204,
+      1401,
+      1120
+    ],
+    "ItemCounts": [
+      1,
+      1,
+      3
+    ],
+    "Results": [
+      1612
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 159,
+    "Name": "Suppressing Capsule",
+    "Items": [
+      1612,
+      1205,
+      1119
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      2
+    ],
+    "Results": [
+      1613
+    ],
+    "ResultCounts": [
+      2
+    ],
+    "NonProductive": false
+  },
+  {
+    "ID": 160,
+    "Name": "Pile Sorter",
+    "Items": [
+      2013,
+      1205,
+      1303
+    ],
+    "ItemCounts": [
+      2,
+      1,
+      1
+    ],
+    "Results": [
+      2014
+    ],
+    "ResultCounts": [
+      1
+    ],
+    "NonProductive": false
+  }
+]
