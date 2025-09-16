@@ -20,10 +20,10 @@ There are two methods of installation:
 
 ### Mod Manager Installation
 
-> [!IMPORTANT]
-> If you can read this line, the `DSP_AP` mod is not yet available on mod managers. When it is, this notice will be removed and the docs updated.
+> [!NOTE]
+> When a new update of the mod is released, it takes a while for it to appear in the mod manager. If you can't find the mod, this is probably why. In that case, you can either wait, or install the mod manually.
 
-To install the DSP Archipelago mod using a mod manager, follow these steps:
+The [DSP Archipelago](https://thunderstore.io/c/dyson-sphere-program/p/Peasantsworth/DSP_AP/) mod is available on Thunderstore. To install the DSP Archipelago mod using a mod manager, follow these steps:
 
 1. Follow the installation instructions for the mod manager of your choice (for example, r2modman or Gale)
 1. Select Dyson Sphere Program in your mod manager
