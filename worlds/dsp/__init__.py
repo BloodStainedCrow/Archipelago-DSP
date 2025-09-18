@@ -1,5 +1,5 @@
 from worlds.AutoWorld import WebWorld, World
-from BaseClasses import Location, Item, Tutorial, MultiWorld
+from BaseClasses import Location, Item, Tutorial, MultiWorld, LocationProgressType
 from . import Items, Locations, Regions, Rules
 
 class DSPItem(Item):
@@ -40,6 +40,7 @@ class DSPWorld(World):
         for region in self.multiworld.get_regions(self.player):
             for loc in [location for location in Locations.locations if location.region == region.name]:
                 location = DSPLocation(player=self.player, name=loc.name, address=loc.id, parent=region)
+                location.progress_type = loc.progress_type
                 region.locations.append(location)
     
     def create_item(self, name: str) -> DSPItem:

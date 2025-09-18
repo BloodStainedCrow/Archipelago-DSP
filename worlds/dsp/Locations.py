@@ -1,5 +1,5 @@
 from BaseClasses import LocationProgressType
-from typing import List, Optional, Set
+from typing import List, Dict, Optional, Set
 from .DSPItemTypeEnum import DSPType
 from .DSPDataLoader import load_tech_data, load_recipe_data, ensure_unique_name
 
@@ -8,11 +8,16 @@ class LocationDef:
                  type: Optional[DSPType],
                  id: Optional[int],
                  name: str,
-                 region: str):
+                 region: str,
+                 progress_type: LocationProgressType = LocationProgressType.DEFAULT):
         self.type = type
         self.id = id
         self.name = name
         self.region = region
+        self.progress_type = progress_type
+
+# Any tech ID >= this is considered an "upgrade" tech
+FIRST_UPGRADE_ID = 2000
 
 # Matrix item ID -> Region name mapping
 MATRIX_REQUIREMENTS = {
@@ -42,6 +47,10 @@ item_to_recipes = defaultdict(list)
 for recipe in recipe_data:
     for result in recipe.get("Results", []):
         item_to_recipes[result].append(recipe["ID"])
+
+# location_name_groups: ClassVar[Dict[str, Set[str]]] = {}
+# Should be region (matrix type) -> set of location names
+location_name_groups: Dict[str, Set[str]] = {}
 
 # Helper: Get matrix items required by a given tech
 def get_matrix_items_for_tech(tech_id: int, visited: Optional[Set[int]] = None) -> Set[int]:
@@ -104,7 +113,13 @@ for tech in tech_data:
         type=DSPType.ITEM,
         id=tech_id,
         name=unique_location_name,
-        region=region
+        region=region,
+        progress_type = LocationProgressType.EXCLUDED if tech_id >= FIRST_UPGRADE_ID else LocationProgressType.DEFAULT
     )
+
+    # Group location names by region
+    if region not in location_name_groups:
+        location_name_groups[region] = set()
+    location_name_groups[region].add(unique_location_name)
 
     locations.append(location)

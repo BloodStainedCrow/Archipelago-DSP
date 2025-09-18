@@ -18,8 +18,11 @@ class ItemDef:
         self.count = count
         self.prefill_location = prefill_location
 
-# Progression recipe IDs
+# Recipe IDs that are always progression
 PROGRESSION_RECIPE_IDS = {9, 10, 18, 27, 55, 75, 102}
+
+# Tech IDs that are optionally progression for balacing reasons (enabled by default)
+BALANCED_PROGRESSION_TECH_IDS = {1201, 1401, 1601}
 
 # Load tech data
 tech_data = load_tech_data()
@@ -42,7 +45,8 @@ for tech in tech_data:
 
     classification = (
         ItemClassification.progression
-        if unlock_recipes.intersection(PROGRESSION_RECIPE_IDS)
+        if (unlock_recipes.intersection(PROGRESSION_RECIPE_IDS) or
+            tech_id in BALANCED_PROGRESSION_TECH_IDS)
         else ItemClassification.filler
     )
 
