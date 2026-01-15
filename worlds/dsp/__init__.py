@@ -1,6 +1,7 @@
 from worlds.AutoWorld import WebWorld, World
 from BaseClasses import Location, Item, Tutorial, MultiWorld, LocationProgressType
 from . import Items, Locations, Regions, Rules
+from .Options import GOAL_TECH
 
 class DSPItem(Item):
     game: str = "Dyson Sphere Program"
@@ -49,7 +50,7 @@ class DSPWorld(World):
     
     def set_rules(self):
         Rules.set_rules(self)
-        self.multiworld.completion_condition[self.player] = lambda state: state.has('Mission Completed!', self.player)
+        self.multiworld.completion_condition[self.player] = lambda state: state.has(GOAL_TECH, self.player)
     
     def create_items(self) -> None:
         for item in Items.items:

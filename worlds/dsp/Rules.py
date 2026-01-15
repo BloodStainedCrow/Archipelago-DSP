@@ -1,27 +1,76 @@
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Iterable, Set
 from worlds.generic.Rules import set_rule
+from .Requirements import get_required_techs_to_craft_item, techs_allowed_to_handcraft, techs_needed_to_exit_handcrafting
+from .DSPDataLoader import load_tech_data, load_recipe_data
+from .Naming import item_name_from_tech_name, location_name_from_tech_name
 
 if TYPE_CHECKING:
     from . import DSPWorld
 
-# This should ideally be a default setting that can be turned off
-def has_basic_recipes(state, player):
-    return (
-        state.has("Basic Assembling", player)
-        and state.has("Automatic Metallurgy", player)
-        and state.has("Basic Logistics System", player)
-        and state.has("Electromagnetic Matrix", player)
-    )
+tech_data = load_tech_data()
+recipe_data = load_recipe_data()
+
+def get_requires_technologies_to_research_with(sciences: Iterable[str]) -> Set[str]:
+    techs = set()
+    for science in sciences:
+        # We need to be able to create the sciences
+        # Get item_id
+        # FIXME: For now (since I only care about the matrices where this holds, I just search for the recipe with this name and use the output)
+        recipe = next((r for r in recipe_data if r["Name"] == science), None)
+        item_id = recipe["Results"][0]
+
+        technologies = get_required_techs_to_craft_item(item_id)
+
+        techs.update(map(lambda tech_id: item_name_from_tech_name(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
+
+    return techs
+
+def get_requires_technologies_to_research_with_item_ids(sciences: Iterable[int], allow_handcraft: bool) -> Set[str]:
+    techs = set()
+    for item_id in sciences:
+        # We need to be able to create the sciences
+        technologies = get_required_techs_to_craft_item(item_id, not allow_handcraft)
+
+        techs.update(map(lambda tech_id: item_name_from_tech_name(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
+
+    return techs
+
 def set_rules(dsp_world: "DSPWorld"):
     player = dsp_world.player
     multiworld = dsp_world.multiworld
 
     # Region rules
     set_rule(multiworld.get_entrance("Menu -> Game Start", player), lambda state: True)
-    set_rule(multiworld.get_entrance("Game Start -> Electromagnetic Matrix", player), lambda state: has_basic_recipes(state, player))
-    set_rule(multiworld.get_entrance("Electromagnetic Matrix -> Energy Matrix", player), lambda state: state.has("Energy Matrix", player))
-    set_rule(multiworld.get_entrance("Energy Matrix -> Structure Matrix", player), lambda state: state.has("Structure Matrix", player))
-    set_rule(multiworld.get_entrance("Structure Matrix -> Information Matrix", player), lambda state: state.has("Information Matrix", player))
-    set_rule(multiworld.get_entrance("Information Matrix -> Gravity Matrix", player), lambda state: state.has("Gravity Matrix", player))
-    set_rule(multiworld.get_entrance("Gravity Matrix -> Universe Matrix", player), lambda state: state.has("Universe Matrix", player))
-    set_rule(multiworld.get_entrance("Universe Matrix -> Goal Complete", player), lambda state: state.has("Universe Matrix", player))
+    set_rule(multiworld.get_entrance("Game Start -> Electromagnetic Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Electromagnetic Matrix"]), player))
+    set_rule(multiworld.get_entrance("Electromagnetic Matrix -> Energy Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix"]), player))
+    set_rule(multiworld.get_entrance("Energy Matrix -> Structure Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix"]), player))
+    set_rule(multiworld.get_entrance("Structure Matrix -> Information Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix"]), player))
+    set_rule(multiworld.get_entrance("Information Matrix -> Gravity Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix", "Gravity Matrix"]), player))
+    set_rule(multiworld.get_entrance("Gravity Matrix -> Universe Matrix", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Universe Matrix"]), player))
+    set_rule(multiworld.get_entrance("Universe Matrix -> Goal Complete", player), lambda state: state.has_all(get_requires_technologies_to_research_with(["Universe Matrix"]), player))
+
+    # Ensure being able to craft
+    for tech_id in techs_needed_to_exit_handcrafting:
+        tech = next((t for t in tech_data if t["ID"] == tech_id), None)
+        tech_name = tech["Name"]
+
+        item_name = item_name_from_tech_name(tech_id, tech_name)
+        multiworld.local_early_items[player][item_name] = 1
+
+
+    # Location Rules
+    for tech in tech_data:
+        if tech.get("IsHiddenTech"):
+            continue  # Skip hidden techs
+        
+        tech_id = tech.get("ID")
+        if tech_id == 1:
+            continue # Skip the initial tech
+
+        tech_name = tech["Name"]
+        location_name = location_name_from_tech_name(tech_id, tech_name)
+
+        researches_needed = set(get_requires_technologies_to_research_with_item_ids(tech["Items"], tech_id in techs_allowed_to_handcraft))
+        # if len(researches_needed) > 0:
+        # FIXME: Ensure that all prereq locations are researchable
+        set_rule(multiworld.get_location(location_name, player), lambda state, tech_id=tech_id, tech=tech: state.has_all(get_requires_technologies_to_research_with_item_ids(tech["Items"], tech_id in techs_allowed_to_handcraft), player))
