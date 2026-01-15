@@ -1,12 +1,14 @@
 from BaseClasses import ItemClassification
 from typing import List, Optional
-from .DSPItemTypeEnum import DSPType
-from .DSPDataLoader import load_tech_data, ensure_unique_name
+from .DSPDataLoader import load_tech_data
+from .Requirements import get_required_techs_for_tech
+from .Naming import item_name_from_tech_name, location_name_from_tech_name
 import re
+
+from .Options import GOAL_TECH_ID, FIRST_UPGRADE_ID, GOAL_TECH
 
 class ItemDef:
     def __init__(self,
-                 type: Optional[DSPType],
                  id: Optional[int],
                  name: str,
                  classification: ItemClassification,
@@ -21,22 +23,16 @@ class ItemDef:
         self.prefill_location = prefill_location
         self.progressive_group = progressive_group
 
-# Recipe IDs that are always progression
-PROGRESSION_RECIPE_IDS = {9, 10, 18, 27, 55, 75, 102}
-
-# Tech IDs that are optionally progression for balacing reasons (enabled by default)
-BALANCED_PROGRESSION_TECH_IDS = {1201, 1401, 1601, 1001}
-
 # Load tech data
 tech_data = load_tech_data()
 
 # Build items
 items: List[ItemDef] = []
 
-used_item_names = {}
-
 # Progressive items grouped by their base name
 progressive_items_by_group = {}
+
+needed_techs_for_victory = get_required_techs_for_tech(GOAL_TECH_ID)
 
 for tech in tech_data:
     if tech.get("IsHiddenTech"):
@@ -45,44 +41,37 @@ for tech in tech_data:
     tech_id = tech.get("ID")
     if tech_id == 1:
         continue # Skip the initial tech
-    
+
     tech_name = tech.get("Name")
     unlock_recipes = set(tech.get("UnlockRecipes", []))
 
     classification = (
         ItemClassification.progression
-        if (unlock_recipes.intersection(PROGRESSION_RECIPE_IDS) or
-            tech_id in BALANCED_PROGRESSION_TECH_IDS)
+        if (tech_id in needed_techs_for_victory)
         else ItemClassification.filler
     )
 
-    # Get unique name
-    unique_name = ensure_unique_name(tech_name, used_item_names)
-    
-    
-    progressive_group = None
-
-    if tech_id >= 2000:
-        # Extract base name (e.g., "Engine Upgrade" from "Engine Upgrade 3")
-        match = re.match(r"^(.*?)(?: \d+)?$", tech_name)
-        if match:
-            base_name = match.group(1).strip()
-            progressive_group = base_name
-
-            # Store in dictionary for later reference if needed
-            progressive_items_by_group.setdefault(base_name, []).append(tech_id)
+    item_name = item_name_from_tech_name(tech_id, tech_name)
+    # FIXME: Readd progressives
     
     item = ItemDef(
-        type=DSPType.ITEM,
         id=tech_id,
-        name=unique_name,
+        name=item_name,
         classification=classification,
         count=1,
         prefill_location=None,
-        progressive_group=progressive_group
+        progressive_group=None
     )
 
     items.append(item)
 
 # Add completion item
-items.append(ItemDef(None, None, 'Mission Completed!', ItemClassification.progression, 1, 'Mission Completed!'))
+goal_item = ItemDef(
+    id=GOAL_TECH_ID,
+    name=GOAL_TECH,
+    classification=ItemClassification.progression,
+    count=1,
+    prefill_location=location_name_from_tech_name(GOAL_TECH_ID, GOAL_TECH),
+    progressive_group=None
+)
+items.append(goal_item)
