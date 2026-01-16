@@ -1,5 +1,6 @@
 from typing import Optional
 from .DSPDataLoader import load_tech_data
+from .Options import FIRST_UPGRADE_ID
 tech_data = load_tech_data()
 
 # This returns a unique name for each technology, deterministically
@@ -28,3 +29,15 @@ def get_repeat_id(tech_id: int, tech_name: str) -> Optional[int]:
         return None
     else:
         return techs_with_this_name.index(tech_id)
+
+def get_progressive_tech_name(tech_id: int, tech_name: str) -> Optional[str]:
+    if tech_id >= FIRST_UPGRADE_ID:
+        return f"Progressive {tech_name}"
+    else:
+        return None
+
+def get_item_name_with_progressive(tech_id: int, tech_name: str) -> str:
+    if tech_id >= FIRST_UPGRADE_ID:
+        return f"Progressive {tech_name}"
+    else:
+        return item_name_from_tech_name(tech_id, tech_name)
