@@ -50,6 +50,9 @@ for tech in tech_data:
     if tech_id == 1:
         continue # Skip the initial tech
 
+    if tech_id == GOAL_TECH_ID:
+        continue # Skip the goal tech
+
     tech_name = tech.get("Name")
     unlock_recipes = set(tech.get("UnlockRecipes", []))
 
