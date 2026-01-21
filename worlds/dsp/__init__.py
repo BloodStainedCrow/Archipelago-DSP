@@ -1,7 +1,8 @@
 from worlds.AutoWorld import WebWorld, World
 from BaseClasses import Location, Item, Tutorial, MultiWorld, LocationProgressType
 from . import Items, Locations, Regions, Rules
-from .Options import GOAL_TECH
+from .DSPDataLoader import load_tech_data
+tech_data = load_tech_data()
 
 class DSPItem(Item):
     game: str = "Dyson Sphere Program"
@@ -26,6 +27,9 @@ class DSPWorld(World):
     """
     game = 'Dyson Sphere Program'
     web = DSPWeb()
+
+    options_dataclass = Options.DSPOptions
+    options: Options.DSPOptions  # Common mistake: This has to be a colon (:), not an equals sign (=).
     
     item_name_to_id = {item.name: item.id for item in Items.items}
     item_name_to_item = {item.name: item for item in Items.items}
@@ -36,6 +40,7 @@ class DSPWorld(World):
         
     def create_regions(self):
         Regions.create_regions(self)
+        Locations.create_locs(self.options.exclude_upgrade_locs, self.options.max_matrix_needed)
         
         # Add locations into regions
         for region in self.multiworld.get_regions(self.player):
@@ -49,10 +54,15 @@ class DSPWorld(World):
         return DSPItem(name, item.classification, item.id, self.player)
     
     def set_rules(self):
+        Options.USE_PROGRESSIVE_UPGRADES = self.options.progressive
         Rules.set_rules(self)
-        self.multiworld.completion_condition[self.player] = lambda state: state.has(GOAL_TECH, self.player)
+        goal_tech = next((t["Name"] for t in tech_data if t.get("Name") == self.options.goal_tech), None)
+        self.multiworld.completion_condition[self.player] = lambda state: state.has(goal_tech, self.player)
     
     def create_items(self) -> None:
+        goal_tech_id = next((t["ID"] for t in tech_data if t.get("Name") == self.options.goal_tech), None)
+        goal_tech = next((t["Name"] for t in tech_data if t.get("ID") == goal_tech_id), None)
+        Items.create_items(goal_tech_id, goal_tech, self.options.progressive)
         for item in Items.items:
             prefill_loc = None
             if item.prefill_location:

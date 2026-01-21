@@ -3,7 +3,7 @@ from typing import List, Dict, Optional, Set
 from .DSPDataLoader import load_tech_data
 from .Requirements import techs_allowed_to_handcraft, get_required_techs_for_tech
 from .Naming import location_name_from_tech_name
-from .Options import FIRST_UPGRADE_ID, EXCLUDE_UPGRADE_LOCS, MAX_MATRIX_NEEDED
+from .Options import FIRST_UPGRADE_ID
 
 class LocationDef:
     def __init__(self,
@@ -42,48 +42,51 @@ def get_matrix_items_for_tech(tech) -> Set[int]:
 # Build the locations list
 locations: List[LocationDef] = []
 
-max_matrix_id_allowed = list(MATRIX_ITEMS.keys())[list(MATRIX_ITEMS.values()).index(MAX_MATRIX_NEEDED)]
+def create_locs(exclude_upgrades: bool, max_matrix_needed_id: int):
+    max_matrix_id_allowed = next((id for id in MATRIX_ITEMS.keys() if id == max_matrix_needed_id), None)
 
-for tech in tech_data:
-    if tech.get("IsHiddenTech"):
-        continue  # Skip hidden techs
-    
-    tech_id = tech.get("ID")
-    if tech_id == 1:
-        continue # Skip the initial tech
+    for tech in tech_data:
+        if tech.get("IsHiddenTech"):
+            continue  # Skip hidden techs
+        
+        tech_id = tech.get("ID")
+        if tech_id == 1:
+            continue # Skip the initial tech
 
-    tech_name = tech.get("Name")
+        tech_name = tech.get("Name")
 
-    # Gather all matrix items directly required
-    all_matrix_items = get_matrix_items_for_tech(tech)
+        # Gather all matrix items directly required
+        all_matrix_items = get_matrix_items_for_tech(tech)
 
-    progress_type = LocationProgressType.EXCLUDED if tech_id >= FIRST_UPGRADE_ID and EXCLUDE_UPGRADE_LOCS else LocationProgressType.DEFAULT
+        progress_type = LocationProgressType.EXCLUDED if tech_id >= FIRST_UPGRADE_ID and exclude_upgrades else LocationProgressType.DEFAULT
 
-    if all_matrix_items:
-        highest_matrix_id = max(all_matrix_items)
-        region = MATRIX_ITEMS.get(highest_matrix_id, "Game Start")
+        if all_matrix_items:
+            highest_matrix_id = max(all_matrix_items)
+            region = MATRIX_ITEMS.get(highest_matrix_id, "Game Start")
 
-        # FIXME: This might fail if a tech does not need a matrix but a prereq does.
-        if highest_matrix_id > max_matrix_id_allowed:
-            progress_type = LocationProgressType.EXCLUDED
+            # FIXME: This might fail if a tech does not need a matrix but a prereq does.
+            if highest_matrix_id > max_matrix_id_allowed:
+                progress_type = LocationProgressType.EXCLUDED
 
-        if tech_id in techs_allowed_to_handcraft:
+            if tech_id in techs_allowed_to_handcraft:
+                region = "Game Start"
+        else:
             region = "Game Start"
-    else:
-        region = "Game Start"
 
-    location_name = location_name_from_tech_name(tech_id, tech_name)
+        location_name = location_name_from_tech_name(tech_id, tech_name)
 
-    location = LocationDef(
-        id=tech_id,
-        name=location_name,
-        region=region,
-        progress_type=progress_type
-    )
+        # print(location_name + ": " + str(progress_type))
 
-    # Group location names by region
-    if region not in location_name_groups:
-        location_name_groups[region] = set()
-    location_name_groups[region].add(location_name)
+        location = LocationDef(
+            id=tech_id,
+            name=location_name,
+            region=region,
+            progress_type=progress_type
+        )
 
-    locations.append(location)
+        # Group location names by region
+        if region not in location_name_groups:
+            location_name_groups[region] = set()
+        location_name_groups[region].add(location_name)
+
+        locations.append(location)
