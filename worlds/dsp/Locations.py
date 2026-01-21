@@ -90,3 +90,24 @@ def create_locs(exclude_upgrades: bool, max_matrix_needed_id: int):
         location_name_groups[region].add(location_name)
 
         locations.append(location)
+
+
+
+def possible_location_set() -> Set[tuple[str, int]]:
+    locations = set()
+    for tech in tech_data:
+        if tech.get("IsHiddenTech"):
+            continue  # Skip hidden techs
+        
+        tech_id = tech.get("ID")
+        if tech_id == 1:
+            continue # Skip the initial tech
+
+        tech_name = tech.get("Name")
+
+        location_name = location_name_from_tech_name(tech_id, tech_name)
+
+        # print(location_name + ": " + str(progress_type))
+
+        locations.add(tuple([location_name, tech_id]))
+    return locations
