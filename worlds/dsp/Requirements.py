@@ -27,8 +27,8 @@ items_needed_for_item = {
 }
 
 techs_needed_for_item = {
-    1003: { 2901, 2902 }, # Silicon Ore requires interplanetary flight (TODO: Maybe make adjustable?)
-    1004: { 2901, 2902 }, # Titanium Ore requires interplanetary flight (TODO: Maybe make adjustable?)
+    # 1003: { 2901, 2902 }, # Silicon Ore requires interplanetary flight (TODO: Maybe make adjustable?)
+    # 1004: { 2901, 2902 }, # Titanium Ore requires interplanetary flight (TODO: Maybe make adjustable?)
 }
 
 def get_required_techs_for_tech(tech_id: int, visited: Optional[Set[int]] = None) -> Set[int]:
