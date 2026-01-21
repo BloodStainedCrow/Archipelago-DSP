@@ -31,9 +31,8 @@ class DSPWorld(World):
     options_dataclass = Options.DSPOptions
     options: Options.DSPOptions  # Common mistake: This has to be a colon (:), not an equals sign (=).
     
-    item_name_to_id = {item.name: item.id for item in Items.items}
-    item_name_to_item = {item.name: item for item in Items.items}
-    location_name_to_id = {loc.name: loc.id for loc in Locations.locations}
+    item_name_to_id = {item[0]: item[1] for item in Items.get_potential_item_set()}
+    location_name_to_id = {loc[0]: loc[1] for loc in Locations.possible_location_set()}
     
     def __init__(self, world: MultiWorld, player: int):
         super().__init__(world, player)
@@ -50,14 +49,15 @@ class DSPWorld(World):
                 region.locations.append(location)
     
     def create_item(self, name: str) -> DSPItem:
-        item: Items.ItemDef = self.item_name_to_item[name]
+        Items.create_items(goal_tech_id, goal_tech, self.options.progressive)
+        item: Items.ItemDef = next((item for item in Items.items if item.name == name), None)
         return DSPItem(name, item.classification, item.id, self.player)
     
     def set_rules(self):
         Options.USE_PROGRESSIVE_UPGRADES = self.options.progressive
         Rules.set_rules(self)
         goal_tech = next((t["Name"] for t in tech_data if t.get("Name") == self.options.goal_tech), None)
-        self.multiworld.completion_condition[self.player] = lambda state: state.has(goal_tech, self.player)
+        self.multiworld.completion_condition[self.player] = lambda state: state.has("[GOAL] " + goal_tech, self.player)
     
     def create_items(self) -> None:
         goal_tech_id = next((t["ID"] for t in tech_data if t.get("Name") == self.options.goal_tech), None)
