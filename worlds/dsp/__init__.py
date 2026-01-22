@@ -54,7 +54,6 @@ class DSPWorld(World):
         return DSPItem(name, item.classification, item.id, self.player)
     
     def set_rules(self):
-        Options.USE_PROGRESSIVE_UPGRADES = self.options.progressive
         Rules.set_rules(self)
         goal_tech = next((t["Name"] for t in tech_data if t.get("Name") == self.options.goal_tech), None)
         self.multiworld.completion_condition[self.player] = lambda state: state.has("[GOAL] " + goal_tech, self.player)

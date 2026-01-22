@@ -10,7 +10,6 @@ PROGRESSIVE_ITEM_OFFSET = 12000
 
 # Options
 EXCLUDE_UPGRADE_LOCS = True
-USE_PROGRESSIVE_UPGRADES = None
 
 class GoalTech(FreeText):
     """

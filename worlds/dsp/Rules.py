@@ -3,7 +3,6 @@ from worlds.generic.Rules import set_rule
 from .Requirements import get_required_techs_to_craft_item, techs_allowed_to_handcraft, techs_needed_to_exit_handcrafting
 from .DSPDataLoader import load_tech_data, load_recipe_data
 from .Naming import item_name_from_tech_name, location_name_from_tech_name, get_item_name_with_progressive
-from .Options import USE_PROGRESSIVE_UPGRADES
 
 if TYPE_CHECKING:
     from . import DSPWorld
@@ -11,7 +10,7 @@ if TYPE_CHECKING:
 tech_data = load_tech_data()
 recipe_data = load_recipe_data()
 
-def get_requires_technologies_to_research_with(sciences: Iterable[str]) -> Set[tuple[str, int]]:
+def get_requires_technologies_to_research_with(sciences: Iterable[str], use_prog: bool) -> Set[tuple[str, int]]:
     techs = set()
     for science in sciences:
         # We need to be able to create the sciences
@@ -22,7 +21,7 @@ def get_requires_technologies_to_research_with(sciences: Iterable[str]) -> Set[t
 
         technologies = get_required_techs_to_craft_item(item_id)
 
-        if USE_PROGRESSIVE_UPGRADES:
+        if use_prog:
             item_name_list = list(map(lambda tech_id: get_item_name_with_progressive(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
         else:
             item_name_list = list(map(lambda tech_id: item_name_from_tech_name(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
@@ -31,7 +30,7 @@ def get_requires_technologies_to_research_with(sciences: Iterable[str]) -> Set[t
 
     return techs
 
-def get_requires_technologies_to_research_with_item_ids(sciences: Iterable[int], allow_handcraft: bool) -> Set[tuple[str, int]]:
+def get_requires_technologies_to_research_with_item_ids(sciences: Iterable[int], allow_handcraft: bool, use_prog: bool) -> Set[tuple[str, int]]:
     techs = set()
     for item_id in sciences:
         # We need to be able to create the sciences
@@ -39,7 +38,7 @@ def get_requires_technologies_to_research_with_item_ids(sciences: Iterable[int],
 
         item_name_list = None 
 
-        if USE_PROGRESSIVE_UPGRADES:
+        if use_prog:
             item_name_list = list(map(lambda tech_id: get_item_name_with_progressive(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
         else:
             item_name_list = list(map(lambda tech_id: item_name_from_tech_name(tech_id, next((t for t in tech_data if t["ID"] == tech_id), None)["Name"]), technologies))
@@ -57,19 +56,21 @@ def mapping_from_set(input_set: Set[tuple[str, int]]) -> Mapping[str, int]:
         mapping[tech_name] = tech_count
     return mapping
 
-def set_rules(dsp_world: "DSPWorld"):
+def set_rules(dsp_world):
     player = dsp_world.player
     multiworld = dsp_world.multiworld
 
+    use_prog = dsp_world.options.progressive == True
+
     # Region rules
     set_rule(multiworld.get_entrance("Menu -> Game Start", player), lambda state: True)
-    set_rule(multiworld.get_entrance("Game Start -> Electromagnetic Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix"])), player))
-    set_rule(multiworld.get_entrance("Electromagnetic Matrix -> Energy Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix"])), player))
-    set_rule(multiworld.get_entrance("Energy Matrix -> Structure Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix"])), player))
-    set_rule(multiworld.get_entrance("Structure Matrix -> Information Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix"])), player))
-    set_rule(multiworld.get_entrance("Information Matrix -> Gravity Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix", "Gravity Matrix"])), player))
-    set_rule(multiworld.get_entrance("Gravity Matrix -> Universe Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Universe Matrix"])), player))
-    set_rule(multiworld.get_entrance("Universe Matrix -> Goal Complete", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Universe Matrix"])), player))
+    set_rule(multiworld.get_entrance("Game Start -> Electromagnetic Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Electromagnetic Matrix -> Energy Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Energy Matrix -> Structure Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Structure Matrix -> Information Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Information Matrix -> Gravity Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Electromagnetic Matrix", "Energy Matrix", "Structure Matrix", "Information Matrix", "Gravity Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Gravity Matrix -> Universe Matrix", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Universe Matrix"], use_prog)), player))
+    set_rule(multiworld.get_entrance("Universe Matrix -> Goal Complete", player), lambda state: state.has_all_counts(mapping_from_set(get_requires_technologies_to_research_with(["Universe Matrix"], use_prog)), player))
 
     # Ensure being able to craft
     for tech_id in techs_needed_to_exit_handcrafting:
@@ -92,7 +93,7 @@ def set_rules(dsp_world: "DSPWorld"):
         tech_name = tech["Name"]
         location_name = location_name_from_tech_name(tech_id, tech_name)
 
-        researches_needed = set(get_requires_technologies_to_research_with_item_ids(tech["Items"], tech_id in techs_allowed_to_handcraft))
+        researches_needed = set(get_requires_technologies_to_research_with_item_ids(tech["Items"], tech_id in techs_allowed_to_handcraft, use_prog))
         mapping = mapping_from_set(researches_needed)
         # print(mapping)
         # if len(researches_needed) > 0:
