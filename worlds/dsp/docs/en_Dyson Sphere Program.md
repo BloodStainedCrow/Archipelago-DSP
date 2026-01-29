@@ -1,6 +1,6 @@
 # Dyson Sphere Program
 
-This multiworld is a very early alpha version for Dyson Sphere Program (DSP).
+This multiworld is an alpha version for Dyson Sphere Program (DSP).
 
 ## Where is the options page?
 
@@ -16,4 +16,4 @@ The items you receive will be random research rewards from the pool of all resea
 
 ## What is the goal for this multiworld?
 
-The goal is to complete the "Mission Completed!" achievement, which is obtained by completing the main storyline of the game.
+The goal is to research the goal technology set in the YAML ("Mission Completed!" by default).
